@@ -1,7 +1,7 @@
 # Prims-Algorithm-Visualizer
 To access the visualization, please follow the link below:
 
-https://editor.p5js.org/Nhildenbrand19/sketches/Ou7K0Q4q9
+https://ldantas05.github.io/Prims-Algorithm-Visualizer/
 
 All input files are included in the link, as well as on the SCC. To build this from scratch, with just the provided files. Please take PrimNode.js, Prims.js, index.html, sketch.js and style.css and input them into p5.js. Now to build this visualization simply click the play button at the top left of the screen. 
 
