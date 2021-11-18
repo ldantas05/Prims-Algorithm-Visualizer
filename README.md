@@ -21,20 +21,34 @@ Lastly, and most importantly we have the “Get MST” button and “Next” but
 # Sample Results
 The visual you see below is the screen you will be prompted to first when you run the program. As described above, this gives you numerous different options to choose from when constructing your graph and really allows for customization when running through this algorithm. Throughout this results section, we will take you through how each of these buttons work, and the output that they will provide. 
 
-
+<p align="center" width="100%">
+    <img max_width="100%" src="imgfolder/image1.png">
+</p>
 
 This next gif is an example of a graph that is generated when the link is clicked
 and the play button is pressed. As we discussed earlier, and now only confirming, we have 5 nodes generated, each with a weighted edge to the other nodes. You can also see how easy it is to move nodes from one place to another while also keeping the same weights and edges. Additionally, we can easily see which node is being selected through the change of color inside the node.
 
+<p align="center" width="100%">
+    <img max_width="100%" src="imgfolder/image3.gif">
+</p>
 
 
 Let us now say that we want to generate a graph with 10 nodes, I simply type into the “Number of Nodes” box, 10. The output is shown below.
 
-
+<p align="center" width="100%">
+    <img max_width="100%" src="imgfolder/image4.png">
+</p>
 
 Below we can see an implementation of changing the weight of an edge between two already existing nodes. Like described above, we can simply type into “Starting Node” and “Ending Node” and then specify our new weight in “New Weight.” We also see the “Add new node” button, which like it sounds, is to add another node. We can then connect this node to the graph with the feature shown below. 
 
-
+<p align="center" width="100%">
+    <img max_width="100%" src="imgfolder/image2.gif">
+</p>
 
 Now can see the implementation of both the “Get MST” button and the “Next” button. Starting with the “Get MST” button. When we hit this button all of the nodes in the MST are highlighted in orange, which as you would expect, is all of them. The “Next” button is where the real visualization comes in. Everytime this button is hit, the algorithm iterates through and highlights the first edge in Prim’s MST. This can be clicked continuously until the console log give us “Full tree found.” An example of how this works is shown below.
 
+<p align="center" width="100%">
+    <img max_width="100%" src="imgfolder/image5.gif">
+</p>
+
+</br>
